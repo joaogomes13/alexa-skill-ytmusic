@@ -4,8 +4,14 @@
     "default": {
       "skillInfrastructure": {
         "@ask-cli/lambda-deployer": {
-          "deployState": {}
+          "deployState": {
+            "default": {}
+          }
         }
+      },
+      "skillId": "amzn1.ask.skill.27328d01-0f45-451a-bc72-10e13b75c9a0",
+      "skillMetadata": {
+        "lastDeployHash": "1mgHMGLzuMHCkgMlxXW0NoAGkog="
       }
     }
   }

@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "Youtube Music",
+            "invocationName": "youtube music",
             "intents": [
                 {
                     "name": "GetVideoIntent",
@@ -48,19 +48,15 @@
             ],
             "types": [
                 {
-                    "name": "GetVideoIntent",
-                    "slots": [{
-                        "name": "videoQuery",
-                        "type": "VIDEOS"
-                    }],
-                    "samples": [
-                        "search for {videoQuery}",
-                        "find {videoQuery}",
-                        "play {videoQuery}",
-                        "start playing {videoQuery}",
-                        "put on {videoQuery}"
+                    "name": "VIDEOS",
+                    "values":[
+                        {
+                            "name": {
+                                "value": "twenty one pilots" 
+                            }
+                        }
                     ]
-                 }
+                }
             ]
         }
     }
