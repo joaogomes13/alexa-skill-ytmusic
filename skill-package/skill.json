@@ -1,0 +1,33 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Alexa Youtube Music Skill",
+          "examplePhrases": [
+            "Alexa open Youtube Music"
+          ],
+          "keywords": [
+            "audio",
+            "streaming",
+            "youtube"
+          ],
+          "name": "Youtube Music",
+          "description": "Skill for alex to integrate on Youtube Music"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "STREAMING_SERVICE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "interfaces": [{
+           "type": "AUDIO_PLAYER"
+        }]
+     }
+    },
+    "manifestVersion": "1.0"
+  }
+}
